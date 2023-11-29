@@ -1,0 +1,636 @@
+/* ======================================================
+        Font (Poppins , sans-serif) Link Start Here
+========================================================= */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+/* ======================================================
+        Font (Poppins , sans-serif) Link End Here
+========================================================= */
+
+/* ======================================================
+        Font (Manrope , sans-serif) Link Start Here
+========================================================= */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap");
+/* ======================================================
+        Font (Manrope , sans-serif) Link End Here
+========================================================= */
+
+/* ========================================
+             Common Css Start Here
+===========================================*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--poppins);
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+a,
+li,
+ul,
+ol,
+img {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primaryTextColor: #282938;
+  --headerFooterColor: #1c1e53;
+  --btnColor: #fcd980;
+  --white: #fff;
+  --seconderyBgColor: #f4f6fc;
+  --thirdBgColor: #fcd9801a;
+  --Grey: #f4f6fc;
+  --poppins: "Poppins", sans-serif;
+  --Manrope: "Manrope", sans-serif;
+}
+/* ========================================
+             Common Css End Here
+===========================================*/
+
+/* =========================================================================================================
+                                               Nav part Css Start Here
+===========================================================================================================*/
+#nav-part {
+  background-color: var(--headerFooterColor);
+  padding: 25px 0;
+}
+
+#nav-part .custome-nav {
+  column-gap: 25px;
+}
+
+#nav-part .custome-nav a {
+  color: #bbbbcb;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+#nav-part .custome-nav a:hover {
+  color: #fff;
+}
+
+#nav-part .menu-item button {
+  border: 0;
+  background: transparent;
+  color: var(--White, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 48px;
+  border: 2px solid #f4f6fc33;
+  border-radius: 41px;
+  -webkit-border-radius: 41px;
+  -moz-border-radius: 41px;
+  -ms-border-radius: 41px;
+  -o-border-radius: 41px;
+  margin-left: 48px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  cursor: pointer;
+}
+
+#nav-part .menu-item button:hover {
+  background-color: var(--btnColor);
+  color: #000;
+}
+/* =========================================================================================================
+                                                Nav part Css End Here
+===========================================================================================================*/
+
+/* =========================================================================================================
+                                                Feature part Css Start Here
+===========================================================================================================*/
+#feature-part {
+  background-color: var(--headerFooterColor);
+  padding-top: 128px;
+  padding-bottom: 140px;
+}
+
+#feature-part .feature-left h1 {
+  color: var(--White, #fff);
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  padding-bottom: 32px;
+  padding-right: 30px;
+}
+
+#feature-part .feature-left p {
+  color: var(--White, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  padding-bottom: 32px;
+}
+
+#feature-part .feature-left .feature-btn button {
+  padding: 16px 48px;
+  color: #282938;
+  font-family: var(--Manrope);
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--btnColor);
+  border: none;
+  border-radius: 41px;
+  background: var(--btnColor, #fcd980);
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  border: 2px solid #f4f6fc33;
+}
+
+#feature-part .feature-left .feature-btn button:hover {
+  background: transparent;
+  color: var(--white);
+}
+/* =========================================================================================================
+                                                Feature part Css End Here
+===========================================================================================================*/
+
+/* =========================================================================================================
+                                                User part Css Start Here
+===========================================================================================================*/
+#user-part {
+  padding: 96px 0;
+}
+
+#user-part .user-title h3 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 38px;
+  font-weight: 600;
+}
+
+#user-part .user-title p {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  opacity: 0.7;
+  font-weight: 400;
+}
+
+#user-part .user-company picture {
+  padding-right: 20px;
+}
+/* =========================================================================================================
+                                                User part Css End Here
+===========================================================================================================*/
+
+/* =========================================================================================================
+                                                Benefit part Css Start Here
+===========================================================================================================*/
+#benefit-part .benefit-heading h2 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  padding: 0 260px;
+  margin-bottom: 48px;
+}
+
+#benefit-part .benefit-box {
+  background-color: var(--seconderyBgColor);
+  padding-top: 50px;
+  padding-bottom: 48px;
+  padding-left: 48px;
+  padding-right: 32px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  cursor: pointer;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#benefit-part .benefit-box:hover {
+  transform: translateY(-5%);
+  -webkit-transform: translateY(-5%);
+  -moz-transform: translateY(-5%);
+  -ms-transform: translateY(-5%);
+  -o-transform: translateY(-5%);
+  box-shadow: none;
+  border-radius: 0%;
+  -webkit-border-radius: 0%;
+  -moz-border-radius: 0%;
+  -ms-border-radius: 0%;
+  -o-border-radius: 0%;
+}
+#benefit-part .benefit-box h3 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 26px;
+  padding-bottom: 12px;
+}
+
+#benefit-part .benefit-box p {
+  color: var(--primaryTextColor, #282938);
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* =========================================================================================================
+                                                Benefit part Css End Here
+===========================================================================================================*/
+
+/* =========================================================================================================
+                                                Client part Css Start Here
+===========================================================================================================*/
+#client-part {
+  padding: 128px 0;
+}
+
+#client-part .client-left h5 {
+  color: var(--primaryTextColor);
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+#client-part .client-left h3 {
+  color: #232536;
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 56px;
+  padding: 16px 0;
+}
+
+#client-part .client-left p {
+  color: var(--primaryTextColor, #282938);
+  font-size: 15px;
+  opacity: 0.6;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* =========================================================================================================
+                                            Client part Css End Here
+===========================================================================================================*/
+
+/* =========================================================================================================
+                                           Rivision part Css Start Here
+===========================================================================================================*/
+#rivision-part {
+  background-color: var(--seconderyBgColor);
+  padding: 128px 0;
+}
+
+#rivision-part .rivision-right h5 {
+  color: var(--primaryTextColor);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#rivision-part .rivision-right h3 {
+  color: var(--primaryTextColor);
+  font-size: 34px;
+  padding: 16px 0;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+#rivision-part .rivision-right p {
+  color: var(--primaryTextColor);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* =========================================================================================================
+                                         Rivision part Css End Here
+===========================================================================================================*/
+
+/* =========================================================================================================
+                                         Support part Css Start Here
+===========================================================================================================*/
+#support-part {
+  padding: 128px 0;
+}
+
+#support-part .support-left h5 {
+  color: var(--primaryTextColor);
+  font-size: 18px;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+#support-part .support-left h3 {
+  color: var(--primaryTextColor);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  padding: 16px 0;
+}
+
+#support-part .support-left p {
+  color: var(--primaryTextColor);
+  font-size: 15px;
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* =========================================================================================================
+                                         Support part Css End Here
+===========================================================================================================*/
+
+/* =========================================================================================================
+                                         Delivery part Css Start Here
+===========================================================================================================*/
+#delivery-part {
+  padding: 128px 0;
+  background-color: var(--thirdBgColor);
+}
+
+#delivery-part .delivery-right h5 {
+  color: var(--primaryTextColor);
+  font-size: 18px;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+#delivery-part .delivery-right h3 {
+  color: var(--primaryTextColor);
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 56px;
+  padding: 16px 0;
+}
+
+#delivery-part .delivery-right p {
+  color: var(--primaryTextColor);
+  font-size: 15px;
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* =========================================================================================================
+                                         Delivery part Css End Here
+===========================================================================================================*/
+
+/* =========================================================================================================
+                                         Question part Css Start Here
+===========================================================================================================*/
+#question-part {
+  padding: 128px 0;
+}
+
+#question-part .question-left h3 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 56px;
+  padding-bottom: 16px;
+}
+
+#question-part .question-left a {
+  display: inline-block;
+  color: #2405f2;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  padding: 8px 15px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#question-part .question-left a:hover {
+  color: var(--primaryTextColor);
+  background-color: var(--btnColor);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transform: translateY(15%);
+  -webkit-transform: translateY(15%);
+  -moz-transform: translateY(15%);
+  -ms-transform: translateY(15%);
+  -o-transform: translateY(15%);
+}
+
+#question-part .question-right .accordion-header span {
+  color: #2405f2;
+  font-size: 24px;
+  font-weight: 500;
+  padding-right: 58px;
+}
+
+#question-part .question-right h2 {
+  color: var(--primaryTextColor);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#question-part .accordion-body {
+  color: var(--primaryTextColor, #282938);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  padding-left: 105px;
+  padding-top: 16px;
+}
+
+#question-part .accordion .accordion-item {
+  outline: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+/* =========================================================================================================
+                                         Question part Css End Here
+===========================================================================================================*/
+
+/* =========================================================================================================
+                                         Footer part Css Start Here
+===========================================================================================================*/
+#footer-part {
+  background-color: var(--headerFooterColor);
+  padding-top: 100px;
+}
+
+#footer-part .footer-left p {
+  color: var(--White, #fff);
+  font-size: 16px;
+  opacity: 0.8;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 22px;
+  padding-bottom: 86px;
+  padding-right: 20px;
+}
+
+#footer-part .footer-left .footer-contact {
+  background-color: var(--btnColor);
+  padding: 18px 37px;
+  column-gap: 29px;
+}
+
+#footer-part .footer-left .footer-contact h3 {
+  color: var(--primaryTextColor, #282938);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#footer-part .footer-left .footer-contact a {
+  color: var(--primaryTextColor, #282938);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#footer-part .footer-left .footer-contact a:hover {
+  text-decoration: underline;
+}
+
+#footer-part .footer-right h2 {
+  color: var(--white);
+  font-size: 48px;
+  font-weight: 600;
+  padding-bottom: 14px;
+}
+
+#footer-part .footer-right p {
+  color: var(--Grey, #f4f6fc);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.8;
+  padding-bottom: 28px;
+  padding-right: 146px;
+}
+
+#footer-part .footer-right .footer-icon a {
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  line-height: 31px;
+  border: 2px solid #fff;
+  text-align: center;
+  margin-right: 18px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+#footer-part .footer-right .footer-icon a:nth-child(1) {
+  color: #2f55a4;
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(2) {
+  color: #1da1f2;
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(3) {
+  color: #f56040;
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(4) {
+  color: #0a66c2;
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(1):hover {
+  background-color: #2f55a4;
+  color: #fff;
+  transform: translateY(15%);
+  -webkit-transform: translateY(15%);
+  -moz-transform: translateY(15%);
+  -ms-transform: translateY(15%);
+  -o-transform: translateY(15%);
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(2):hover {
+  background-color: #1da1f2;
+  color: #fff;
+  transform: translateY(15%);
+  -webkit-transform: translateY(15%);
+  -moz-transform: translateY(15%);
+  -ms-transform: translateY(15%);
+  -o-transform: translateY(15%);
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(3):hover {
+  background-color: #f56040;
+  color: #fff;
+  transform: translateY(15%);
+  -webkit-transform: translateY(15%);
+  -moz-transform: translateY(15%);
+  -ms-transform: translateY(15%);
+  -o-transform: translateY(15%);
+}
+
+#footer-part .footer-right .footer-icon a:nth-child(4):hover {
+  background-color: #0a66c2;
+  color: #fff;
+  transform: translateY(15%);
+  -webkit-transform: translateY(15%);
+  -moz-transform: translateY(15%);
+  -ms-transform: translateY(15%);
+  -o-transform: translateY(15%);
+}
+/* =========================================================================================================
+                                         Footer part Css End Here
+===========================================================================================================*/
+
+/* =========================================================================================================
+                                         Footer nav part Css Start Here
+===========================================================================================================*/
+
+.Customize {
+  background-color: #fff;
+  padding: 25px;
+}
+
+/* =========================================================================================================
+                                         Footer nav part Css End Here
+===========================================================================================================*/
+
+/* ====================================== End ==================================== */

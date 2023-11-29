@@ -1,0 +1,509 @@
+/* =========================================================
+                      Md Device
+============================================================*/
+
+@media (max-width: 991.98px) {
+  /* =================== Nav part Start ================== */
+  .navbar .custome-nav a {
+    background-color: #e9c4308a;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .navbar button {
+    background-color: #a59d2a;
+    border: 0;
+    outline: 0;
+  }
+
+  #nav-part .menu-item button {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 11px;
+  }
+
+  /* =================== Nav part End ================== */
+
+  /* =================== Feature part Start ================== */
+  #feature-part {
+    padding-top: 34px;
+    padding-bottom: 97px;
+  }
+
+  #feature-part .feature-left h1 {
+    font-size: 47px;
+    padding-bottom: 26px;
+  }
+
+  #feature-part .feature-left p {
+    font-size: 13px;
+    padding-right: 94px;
+  }
+
+  #feature-part .feature-left .feature-btn button {
+    padding: 11px 241px;
+    border-radius: 20px;
+    width: 100%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+
+  .img-fluid {
+    margin-top: 57px;
+  }
+  /* =================== Feature part End ================== */
+
+  /* ==================== Benefit part start =============== */
+  #benefit-part .benefit-heading h2 {
+    font-size: 32px;
+
+    line-height: 53px;
+    padding: 0px 133px;
+  }
+
+  #benefit-part .benefit-box {
+    margin-bottom: 36px;
+  }
+
+  #benefit-part .benefit-box h3 {
+    font-size: 21px;
+  }
+
+  #benefit-part .benefit-box p {
+    font-size: 11px;
+
+    line-height: 25px;
+    padding: 0 82px;
+  }
+  /* ==================== Benefit part End =============== */
+
+  /* ================= Client Part Start ============= */
+
+  #client-part .client-left h3 {
+    font-size: 31px;
+
+    line-height: 56px;
+  }
+
+  #client-part .client-left p {
+    font-size: 13px;
+  }
+
+  /* ================= Client Part End ============= */
+
+  /* =================== Rivision Part Start =============== */
+
+  #rivision-part .rivision-right h5 {
+    font-size: 15px;
+    margin-top: 32px;
+  }
+
+  #rivision-part .rivision-right h3 {
+    font-size: 26px;
+  }
+
+  #rivision-part .rivision-right p {
+    font-size: 12px;
+  }
+
+  /* =================== Rivision Part End =============== */
+
+  /* =============== Support Part Start ============ */
+
+  #support-part .support-left h5 {
+    font-size: 13px;
+  }
+
+  #support-part .support-left h3 {
+    font-size: 27px;
+
+    line-height: 45px;
+  }
+
+  #support-part .support-left p {
+    font-size: 12px;
+  }
+
+  /* =============== Support Part End ============ */
+
+  /* ============= Delivery part STart ============= */
+
+  #delivery-part .delivery-right h5 {
+    font-size: 15px;
+
+    margin-top: 29px;
+  }
+
+  #delivery-part .delivery-right h3 {
+    font-size: 27px;
+  }
+
+  #delivery-part .delivery-right p {
+    font-size: 11px;
+  }
+
+  /* ============= Delivery part End ============= */
+
+  /* ================= Faq part Start ============== */
+
+  #question-part .question-left h3 {
+    text-align: center;
+  }
+
+  #question-part .question-left a {
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  #question-part .question-right .accordion-header span {
+    font-size: 18px;
+  }
+
+  #question-part .question-right h2 {
+    font-size: 20px;
+  }
+
+  /* ================= Faq part End ============== */
+
+  #footer-part .footer-right p {
+    font-size: 14px;
+
+    padding-right: 0;
+  }
+
+  #footer-part {
+    padding-bottom: 53px;
+  }
+
+  .customlast-nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 0px;
+    text-align: center;
+    padding: 0 0;
+    background-color: #a59d2a;
+    margin-bottom: 20px;
+  }
+}
+
+/* ==============================================================
+                               Sm Device
+=================================================================*/
+
+@media (max-width: 767.98px) {
+  #feature-part .feature-left h1 {
+    font-size: 40px;
+    padding-bottom: 15px;
+  }
+
+  #feature-part .feature-left p {
+    font-size: 10px;
+  }
+
+  #feature-part .feature-left .feature-btn button {
+    padding: 11px 197px;
+  }
+
+  #benefit-part .benefit-heading h2 {
+    font-size: 26px;
+    line-height: 43px;
+    padding: 0px 89px;
+  }
+
+  #benefit-part .benefit-box p {
+    font-size: 10px;
+    line-height: 22px;
+    padding: 0 37px;
+  }
+
+  #benefit-part .benefit-box h3 {
+    font-size: 19px;
+  }
+
+  #rivision-part .rivision-right h5 {
+    font-size: 12px;
+  }
+
+  #client-part .client-left h5 {
+    font-size: 13px;
+  }
+
+  #rivision-part .rivision-right h3 {
+    font-size: 21px;
+    line-height: 39px;
+  }
+
+  #client-part .client-left h3 {
+    font-size: 22px;
+    line-height: 46px;
+  }
+
+  #client-part .client-left p {
+    font-size: 11px;
+  }
+
+  #rivision-part .rivision-right p {
+    font-size: 10px;
+  }
+
+  #support-part .support-left h5 {
+    font-size: 10px;
+  }
+
+  #support-part .support-left h3 {
+    font-size: 22px;
+    line-height: 39px;
+  }
+
+  #support-part .support-left p {
+    font-size: 10px;
+  }
+
+  #delivery-part .delivery-right h5 {
+    font-size: 11px;
+  }
+
+  #delivery-part .delivery-right h3 {
+    font-size: 22px;
+    line-height: 40px;
+  }
+
+  #question-part .question-left h3 {
+    font-size: 29px;
+
+    padding-bottom: 9px;
+  }
+
+  #question-part .question-left a {
+    font-size: 14px;
+  }
+
+  #question-part .question-right h2 {
+    font-size: 16px;
+  }
+
+  #question-part .question-right .accordion-header span {
+    font-size: 15px;
+  }
+
+  #question-part .accordion-body {
+    font-size: 11px;
+
+    line-height: 26px;
+  }
+}
+
+/* =======================================================================
+                               Xs Device
+==========================================================================*/
+
+@media (max-width: 575.98px) {
+  #feature-part {
+    padding-top: 34px;
+    padding-bottom: 97px;
+
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  #feature-part .feature-left h1 {
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    line-height: 0;
+    padding-right: 0;
+  }
+
+  #feature-part .feature-left p {
+    font-size: 8px;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  #feature-part .feature-left .feature-btn button {
+    padding: 6px 14px;
+  }
+
+  #user-part {
+    padding: 96px 26px;
+  }
+
+  #user-part .user-title p {
+    font-size: 10px;
+
+    text-align: center;
+  }
+  #user-part .user-title h3 {
+    font-size: 25px;
+
+    text-align: center;
+  }
+
+  .img-fluid {
+    width: 128px;
+  }
+
+  #benefit-part .benefit-heading h2 {
+    font-size: 16px;
+    line-height: 29px;
+    padding: 0px 50px;
+  }
+
+  #benefit-part .benefit-box {
+    text-align: center;
+  }
+
+  #benefit-part .benefit-box h3 {
+    font-size: 15px;
+  }
+
+  #benefit-part .benefit-box p {
+    font-size: 5px;
+    line-height: 15px;
+    padding: 0 37px;
+  }
+
+  #benefit-part .benefit-box img,
+  svg {
+    width: 23px;
+  }
+
+  #client-part {
+    padding: 69px 0;
+  }
+
+  #client-part {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  #client-part .client-left h5 {
+    font-size: 10px;
+  }
+
+  #client-part .client-left h3 {
+    font-size: 17px;
+    line-height: 36px;
+  }
+
+  #client-part .client-left p {
+    font-size: 6px;
+    line-height: 21px;
+  }
+
+  #rivision-part {
+    padding: 32px 0;
+  }
+
+  #rivision-part {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  #rivision-part .rivision-right h5 {
+    font-size: 8px;
+  }
+
+  #rivision-part .rivision-right h3 {
+    font-size: 19px;
+    line-height: 33px;
+  }
+
+  #rivision-part .rivision-right p {
+    font-size: 7px;
+    line-height: 21px;
+  }
+
+  #support-part {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  #support-part .support-left h5 {
+    font-size: 8px;
+  }
+
+  #delivery-part {
+    padding: 46px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #delivery-part .delivery-right h5 {
+    font-size: 10px;
+  }
+
+  #delivery-part .delivery-right h3 {
+    font-size: 19px;
+    line-height: 37px;
+  }
+
+  #delivery-part .delivery-right p {
+    font-size: 7px;
+    line-height: 21px;
+  }
+
+  #question-part .question-left h3 {
+    font-size: 20px;
+    padding-bottom: 0;
+  }
+
+  #question-part .question-left a {
+    font-size: 10px;
+  }
+
+  #question-part .question-right h2 {
+    font-size: 13px;
+  }
+
+  #question-part .accordion-body {
+    font-size: 8px;
+    line-height: 23px;
+  }
+
+  #footer-part {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer-left {
+    text-align: center;
+  }
+
+  #footer-part .footer-left p {
+    font-size: 10px;
+
+    line-height: 23px;
+
+    padding-right: 0;
+  }
+  #footer-part .footer-left .footer-contact a {
+    font-size: 9px;
+  }
+
+  #footer-part .footer-left .footer-contact h3 {
+    font-size: 14px;
+  }
+
+  .footer-right {
+    text-align: center;
+  }
+
+  #footer-part .footer-right h2 {
+    font-size: 38px;
+
+    padding-top: 20px;
+  }
+
+  #footer-part .footer-right p {
+    font-size: 9px;
+  }
+}
